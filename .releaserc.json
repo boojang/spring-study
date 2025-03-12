@@ -1,5 +1,31 @@
 {
-  "branches": ["develop", "next"],
+  "branches": [
+    "main",
+    "develop",
+    "release",
+    "feat",
+    "build",
+    "docs",
+    "chore",
+    "ci",
+    "style",
+    "refactor",
+    "test",
+    "!HOTFIX",
+    {"name": "develop/*", "prerelease": true},
+    {"name": "release/*", "prerelease": true},
+    {"name": "feat/*", "prerelease": true},
+    {"name": "fix/*", "prerelease": true},
+    {"name": "build/*", "prerelease": true},
+    {"name": "docs/*", "prerelease": true},
+    {"name": "chore/*", "prerelease": true},
+    {"name": "ci/*", "prerelease": true},
+    {"name": "style/*", "prerelease": true},
+    {"name": "refactor/*", "prerelease": true},
+    {"name": "test/*", "prerelease": true},
+    {"name": "!BREAKING CHANGE/*", "prerelease": true},
+    {"name": "!HOTFIX/*", "prerelease": true}
+  ],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -17,7 +43,9 @@
           { "type": "refactor", "release": "patch" },
           { "type": "style", "release": "patch" },
           { "type": "test", "release": false },
-          { "type": "deploy", "release": "patch" }
+          { "type": "deploy", "release": "patch" },
+          { "type": "!BREAKING CHANGE", "release": "patch" },
+          { "type": "!HOTFIX", "release": "patch" }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
