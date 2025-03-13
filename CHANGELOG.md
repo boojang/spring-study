@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.2.0 (2025-03-13)
+
+* chore: 원격 저장소 변경사항 병합 ([94f0b81](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/94f0b81))
+* feat: 애플리케이션 이름 추가 ([243dead](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/243dead))
+
 ## 1.1.0 (2025-03-13)
 
 * fix: 원격 저장소 변경사항 병합 ([67ed250](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/67ed250))
