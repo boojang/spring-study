@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## <small>1.2.2 (2025-03-13)</small>
+
+* chore: .gitignore 파일 수정 ([7c1b6b0](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/7c1b6b0))
+* chore: 원격 저장소 변경 사항 통합 ([3b4b3a1](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/3b4b3a1))
+
 ## <small>1.2.1 (2025-03-13)</small>
 
 * chore: build.gradle에 프로젝트 의존성 추가 ([3365f50](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/3365f50))
