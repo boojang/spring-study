@@ -1,4 +1,3 @@
 package org.ktb.matajo.service.chat;
 
-public class ChatService {
-}
+public class ChatService {}

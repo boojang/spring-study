@@ -1,4 +1,3 @@
 package org.ktb.matajo.global.error.code;
 
-public enum ErrorCode {
-}
+public enum ErrorCode {}

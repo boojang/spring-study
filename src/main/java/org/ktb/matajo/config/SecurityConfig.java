@@ -1,4 +1,3 @@
 package org.ktb.matajo.config;
 
-public class SecurityConfig {
-}
+public class SecurityConfig {}

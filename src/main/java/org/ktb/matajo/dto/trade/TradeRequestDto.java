@@ -1,4 +1,3 @@
 package org.ktb.matajo.dto.trade;
 
-public class TradeRequestDto {
-}
+public class TradeRequestDto {}
