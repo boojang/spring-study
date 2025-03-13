@@ -38,7 +38,7 @@ dependencies {
 
     // AWS 통합
     implementation 'io.awspring.cloud:spring-cloud-aws-starter:3.3.0'
-    implementation 'io.awspring.cloud:spring-cloud-aws-starter-s3:3.3.0'
+//    implementation 'io.awspring.cloud:spring-cloud-aws-starter-s3:3.3.0'
 
     // 유틸리티
     implementation 'org.projectlombok:lombok'
