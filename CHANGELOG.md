@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.1.0 (2025-03-13)
+
+* fix: 원격 저장소 변경사항 병합 ([67ed250](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/67ed250))
+* feat: application.properties를 application.yml로 변환 ([c6a5470](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/c6a5470))
+* feat: kanban 템플릿 생성 ([40b5891](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/40b5891))
+* feat: 프론트매터 추가 ([25f8ff2](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/25f8ff2))
+* chore: 1.1.0 [skip ci] ([139de16](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/139de16))
+* chore: 1.2.0 [skip ci] ([f735f18](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/f735f18))
+* chore: 원격 저장소 변경사항 병합 ([257bac0](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/257bac0))
+* chore: 원격 저장소 변경사항 병합 ([c0d9a64](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/c0d9a64))
+* style: 메인 함수 공백 및 줄바꿈 수정 ([c85051c](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/c85051c))
+
 ## 1.2.0 (2025-03-13)
 
 * chore: 원격 저장소 변경사항 병합 ([257bac0](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/257bac0))
