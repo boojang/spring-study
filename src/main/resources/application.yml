@@ -1,3 +1,5 @@
 spring:
   application:
     name: matajo
+  profiles:
+    active: dev,aws
