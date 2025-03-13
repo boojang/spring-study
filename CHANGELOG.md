@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## <small>1.2.1 (2025-03-13)</small>
+
+* chore: build.gradle에 프로젝트 의존성 추가 ([3365f50](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/3365f50))
+* chore: 원격 저장소 변경사항 병합 ([0f6ecd6](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/0f6ecd6))
+
 ## 1.2.0 (2025-03-13)
 
 * chore: 원격 저장소 변경사항 병합 ([94f0b81](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/94f0b81))
