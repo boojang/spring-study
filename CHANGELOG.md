@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## <small>1.2.3 (2025-03-13)</small>
+
+* chore: GoogleJavaFormat 설정 ([a740660](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/a740660))
+* chore : 폴더 구조 생성 ([ac73e53](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/ac73e53)), closes [#27](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/issues/27)
+* Merge pull request #28 from 100-hours-a-week/chore/dictionary ([a1454fb](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/a1454fb)), closes [#28](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/issues/28)
+
 ## <small>1.2.2 (2025-03-13)</small>
 
 * chore: .gitignore 파일 수정 ([7c1b6b0](https://github.com/100-hours-a-week/4-team-4dollar-matajo-be/commit/7c1b6b0))
