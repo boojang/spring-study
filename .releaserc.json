@@ -129,7 +129,7 @@
       "@semantic-release/npm",
       {
         "pkgRoot": ".",
-        "tarball": "dist"
+        "npmPublish": false
       }
     ],
     "@semantic-release/github",
