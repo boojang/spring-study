@@ -1,4 +1,4 @@
-package org.ktb.matajo.entitiy.common;
+package org.ktb.matajo.entity.common;
 
 import java.time.LocalDateTime;
 
