@@ -9,6 +9,8 @@ import org.ktb.matajo.entity.common.BaseEntity;
 @AllArgsConstructor
 @Builder
 @Getter
+//BaseEntity 때문에 이슈 발생 (updated,created)
+//created_at 와 updated_at가 address 테이블에도 필요할까? -> 등록시간, updated_at
 public class Address extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,13 +53,13 @@ public class Address extends BaseEntity {
     @Column(length = 100)
     private String bname1;  // 법정리의 읍/면 이름 ("동"지역일 경우에는 공백, "리"지역일 경우에는 "읍" 또는 "면" 정보가 들어갑니다.)
 
-    @Column(length = 100)
+    @Column(length = 100, name = "bname1_english")
     private String bname1English;  // 법정리의 읍/면 이름의 영문 ("동"지역일 경우에는 공백, "리"지역일 경우에는 "읍" 또는 "면" 정보가 들어갑니다.)
 
     @Column(length = 100)
     private String bname2;  // 법정동/법정리 이름
 
-    @Column(length = 100)
+    @Column(length = 100, name = "bname2_english")
     private String bname2English;  // 법정동/법정리 이름의 영문
 
     @Column(length = 50)

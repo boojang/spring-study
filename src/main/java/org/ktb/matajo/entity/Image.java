@@ -12,7 +12,7 @@ import org.ktb.matajo.entity.common.BaseEntity;
 @Table(indexes = {
         @Index(name = "idx_image_post_id", columnList = "post_id")
 })
-public class Image extends BaseEntity {
+public class Image{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
@@ -21,7 +21,7 @@ public class Image extends BaseEntity {
     @Column(nullable = false)
     private String imageUrl;  // S3 파일 경로
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TINYINT")
     private boolean thumbnailStatus;  // 썸네일 여부 (0: X, 1: O)
 
     // 게시글과 연관된 이미지

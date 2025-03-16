@@ -34,7 +34,7 @@ public class ChatUser {
             foreignKey = @ForeignKey(ConstraintMode.NO_CONSTRAINT), nullable = false)
     private User user;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TINYINT")
     private boolean activeStatus;
 
     @CreationTimestamp

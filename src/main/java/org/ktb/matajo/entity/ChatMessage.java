@@ -29,7 +29,7 @@ public class ChatMessage {
     @Column(nullable = false)
     private MessageType messageType;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TINYINT")
     private boolean readStatus;
 
     @ManyToOne(fetch = FetchType.LAZY)
